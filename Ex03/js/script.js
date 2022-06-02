@@ -1,5 +1,8 @@
-var arrayMeses = ["enero","febro","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+//Creamos un array de strings con los meses
+const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
-for (let index = 0; index < arrayMeses.length; index++) {
-    console.log(arrayMeses[index]);
-}
+//Recorremos la array
+meses.forEach((mes) => {
+    // mostramos el resultado por consola 
+    console.log(mes);
+})
